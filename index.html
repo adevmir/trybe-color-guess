@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body class="body">
+    <header class="content">
+        <h1 id="title"> Adivinhe a cor! </h1>
+    </header>
+    <main class="content" id="main">
+        <p id="rgb-color"></p>
+        <p id="score"></p>
+        <div>
+            <div class="ball" id="ball1" onclick="respostaErrada()"></div>
+            <div class="ball" id="ball2" onclick="respostaErrada()"></div>
+            <div class="ball" id="ball3" onclick="respostaErrada()"></div>
+            <div class="ball" id="ball4" onclick="respostaErrada()"></div>
+            <div class="ball" id="ball5" onclick="respostaErrada()"></div>
+            <div class="ball" id="ball6" onclick="respostaErrada()"></div>
+            <p id="answer"></p>
+            <button id="reset-game" onclick="iniciarJogo()"> Reiniciar cores</button>
+            <script type="text/Javascript" src="script.js"></script>
+        </div>
+    </main>
+</body>
+</html>

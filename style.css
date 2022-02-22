@@ -1,0 +1,26 @@
+.body {
+    align-content: center;
+    text-align: center;
+    background-color: #484848;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ball {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.content {
+    background-color: #d8d8d8;
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+#main {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+#reset-game {
+    border-radius: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
